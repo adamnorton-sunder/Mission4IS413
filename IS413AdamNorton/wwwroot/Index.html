@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Adam Norton IS413</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body style="background-color: #eeeeee; padding: 20px;">
+    <section style="display: grid; place-items: center;">
+        <h1>Adam Norton</h1>
+        <img src="img/IMG_5152.JPG" style="max-height: 400px;">
+    </section>
+
+    <section style="display: grid; place-items: center;">
+        <h3>Three careers I'd like to pursue post graduation:</h3>
+        <ul>
+            <li>Full-Stack Web Developer</li>
+            <li>Mobile App Cross-Platform Developer</li>
+            <li>Data Analyst</li>
+        </ul>
+    </section>
+
+    <section style="display: grid; place-items: center;">
+        <div style="background-color: #ffffff; box-shadow: 0px 5px 15px #00000020; border-radius: 20px; min-height: 300px;
+                    max-width: 800px; padding: 20px;">
+            <h1>Grade Calculator</h1>
+            <p>Input the decimal version of the percentage of each section that you've earned</p>
+            <p>EG: If you have 90% in your group projects section, type 0.9</p>
+            <form style="display: grid; grid-template-columns: auto auto auto auto;">
+                <label>Assignments:</label>
+                <input id="asgn" type="number" />
+                <label>Group Projects: </label>
+                <input id="group" type="number" />
+                <label>Quizzes: </label>
+                <input id="quiz" type="number" />
+                <label>Midterm: </label>
+                <input id="mid" type="number" />
+                <label>Final: </label>
+                <input id="fin" type="number" />
+                <label>Intex: </label>
+                <input id="intex" type="number" />
+
+                <div style="display: grid; place-items: center;">
+                    <input id="submitBtn" type="button" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/GradeCalc.js"></script>
+</body>
+</html>
